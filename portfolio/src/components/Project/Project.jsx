@@ -2,12 +2,12 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import './About.css';
+
 import ProjectTitle from './ProjectTitle/ProjectTitle';
 import ProjectDescription from './ProjectDescription/ProjectDescription';
 import ProjectImage from './ProjectImage/ProjectImage';
 
-function Project() {
+function Project(props) {
   return (
     <div>
       <Container>

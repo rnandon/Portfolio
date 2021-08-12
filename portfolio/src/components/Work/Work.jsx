@@ -1,12 +1,13 @@
 import React from 'react';
 import './Work.css';
-import {projects} from '../../static/projects.json'
+import projects from '../../static/projects.json'
 import '../SectionTitle/SectionTitle'
 import SectionTitle from '../SectionTitle/SectionTitle';
+import Project from '../Project/Project'
 
 function Work() {
   return (
-    <div className="App">
+    <div>
       <SectionTitle sectionName="Work" />
       {projects.map( (project) => {
         return <Project project={project} />

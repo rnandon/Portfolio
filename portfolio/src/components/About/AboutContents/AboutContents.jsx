@@ -3,7 +3,7 @@ import React from 'react';
 const AboutContents = () => {
     return (
         <div>
-            <h3>Hi, I'm Ryan! I'm glad you're here.</h3><br /> <br />
+            <p className="lead">Hi, I'm Ryan! I'm glad you're here.</p><br /> <br />
             <p>I'm a full stack developer with an insatiable desire to learn and create.
             Whether it's food, music, or tech, I always take the same approach- 
             start with the basics. I make sure that all the needs are met, then

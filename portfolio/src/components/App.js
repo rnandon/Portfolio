@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import './App.css'
+import HeaderBar from './HeaderBar/HeaderBar'
+import About from './About/About'
+import Work from './Work/Work'
 
 class App extends Component {
     constructor(props){
@@ -8,8 +11,10 @@ class App extends Component {
 
     render(){
       return (
-          <div className="container-fluid">
-              <h1>Under construction!</h1>
+          <div className="container-fluid m-0 p-0">
+              <HeaderBar />
+              <About />
+              <Work />
           </div>
       )
     }

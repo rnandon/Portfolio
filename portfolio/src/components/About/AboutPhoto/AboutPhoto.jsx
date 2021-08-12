@@ -9,7 +9,7 @@ const AboutPhoto = () => {
         <Container>
             <Row>
                 <Col xs={6} md={4}>
-                    <Image src="../../../images/about_pic.jpg" rounded />
+                    <Image src="./about_pic.jpg" fluid alt="Profile Pic" />
                 </Col>
             </Row>
         </Container>
