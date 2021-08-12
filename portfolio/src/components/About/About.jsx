@@ -1,23 +1,26 @@
 import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import './About.css';
+import SectionTitle from '../SectionTitle/SectionTitle'
+import AboutContents from './AboutContents/AboutContents';
+import AboutPhoto from './AboutPhoto/AboutPhoto';
 
 function About() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <SectionTitle sectionName="About" />
+      <Container>
+        <Row>
+          <Col sm={12} md={4}>
+            <AboutPhoto />
+          </Col>
+          <Col sm={12} md={8}>
+            <AboutContents />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
