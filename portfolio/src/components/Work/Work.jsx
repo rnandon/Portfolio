@@ -1,23 +1,16 @@
 import React from 'react';
 import './Work.css';
+import {projects} from '../../static/projects.json'
+import '../SectionTitle/SectionTitle'
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 function Work() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <SectionTitle sectionName="Work" />
+      {projects.map( (project) => {
+        return <Project project={project} />
+      })}
     </div>
   );
 }
