@@ -3,15 +3,12 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import image from './about_pic.jpg'
 
 const AboutPhoto = () => {
     return (
         <Container>
-            <Row>
-                <Col xs={6} md={4}>
-                    <Image src="./about_pic.jpg" fluid alt="Profile Pic" />
-                </Col>
-            </Row>
+            <Image src={image} fluid alt="Profile Pic" />
         </Container>
     )
 }

@@ -3,6 +3,9 @@ import './App.css'
 import HeaderBar from './HeaderBar/HeaderBar'
 import About from './About/About'
 import Work from './Work/Work'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 class App extends Component {
     constructor(props){
@@ -11,11 +14,21 @@ class App extends Component {
 
     render(){
       return (
-          <div className="container-fluid m-0 p-0">
-              <HeaderBar />
-              <About />
-              <Work />
-          </div>
+        <Container className="m-0 p-0" fluid>
+            <HeaderBar />
+            <Row>
+                <Col className="m-0 p-0 d-none d-md-block col-md-2" />
+                <Col className="m-0 p-0 col-xs-12 col-md-8" >
+                    <Row>
+                        <About />
+                    </Row>
+                    <Row>
+                        <Work />
+                    </Row>
+                </Col>
+                <Col className="m-0 p-0 d-none d-md-block col-md-2" />
+            </Row>
+        </Container>
       )
     }
 }

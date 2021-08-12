@@ -9,14 +9,14 @@ import AboutPhoto from './AboutPhoto/AboutPhoto';
 
 function About() {
   return (
-    <div>
+    <div className="my-5">
       <SectionTitle sectionName="About" />
       <Container>
         <Row>
-          <Col sm={12} md={4}>
+          <Col sm={12} md={5}>
             <AboutPhoto />
           </Col>
-          <Col sm={12} md={8}>
+          <Col sm={12} md={7}>
             <AboutContents />
           </Col>
         </Row>

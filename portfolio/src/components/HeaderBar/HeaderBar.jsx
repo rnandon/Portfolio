@@ -9,7 +9,7 @@ function HeaderBar() {
   return (
     <Container fluid className="m-0 p-0">
           <HeaderNavbar />
-      <Row>
+      <Row className="my-5">
           <h1 className="display-1 text-center">Ryan Nance-Donaldson</h1>
           <h2 className="display-6 text-center text-muted">Full Stack Software Developer</h2>
       </Row>

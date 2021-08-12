@@ -7,7 +7,7 @@ import Project from '../Project/Project'
 
 function Work() {
   return (
-    <div>
+    <div className="my-5">
       <SectionTitle sectionName="Work" />
       {projects.map( (project) => {
         return <Project project={project} />
