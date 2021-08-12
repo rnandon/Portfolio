@@ -1,13 +1,14 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
-import Nav from 'react-bootstrap/Nav'
-import Container from 'react-bootstrap/Container'
 import HeaderNavbar from '../HeaderNavbar/HeaderNavbar'
 import './HeaderBar.css';
 
 function HeaderBar() {
   return (
-    <HeaderNavbar />
+    <div className="container">
+      <HeaderNavbar />
+      <h1>Ryan Nance-Donaldson</h1>
+      <h2>Full Stack Software Developer</h2>
+    </div>
   );
 }
 
