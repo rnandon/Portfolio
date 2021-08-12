@@ -7,7 +7,7 @@ import './HeaderNavbar.css';
 
 function HeaderNavbar() {
   return (
-    <Navbar collapseOnSelect expand="sm" bg="light" variant="light" className="me-0 pe-0">
+    <Navbar collapseOnSelect expand="sm" bg="light" variant="light" className="me-0 pe-0" sticky="top" >
       <Container className="me-0 pe-0" fluid>
         <Navbar.Brand href="#Home">Ryan Nance-Donaldson</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

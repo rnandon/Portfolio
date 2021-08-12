@@ -6,6 +6,7 @@ import Work from './Work/Work'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
 
 class App extends Component {
     constructor(props){
@@ -15,18 +16,23 @@ class App extends Component {
     render(){
       return (
         <Container className="m-0 p-0" fluid>
-            <HeaderBar />
-            <Row>
-                <Col className="m-0 p-0 d-none d-md-block col-md-2" />
+            <HeaderNavbar />
+            
+            <Row className="mx-0">
+                <Col className="m-0 p-0 d-none d-md-block col-md-2 bg-dark" />
                 <Col className="m-0 p-0 col-xs-12 col-md-8" >
-                    <Row>
+                    <Row className="my-5 mx-0"/>
+                    <Row className="mx-0" >
+                        <HeaderBar />
+                    </Row>
+                    <Row className="mx-0" >
                         <About />
                     </Row>
-                    <Row>
+                    <Row className="mx-0" >
                         <Work />
                     </Row>
                 </Col>
-                <Col className="m-0 p-0 d-none d-md-block col-md-2" />
+                <Col className="m-0 p-0 d-none d-md-block col-md-2 bg-dark" />
             </Row>
         </Container>
       )

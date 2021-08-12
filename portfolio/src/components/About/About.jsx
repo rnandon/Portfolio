@@ -10,8 +10,10 @@ import AboutPhoto from './AboutPhoto/AboutPhoto';
 function About() {
   return (
     <div className="my-5">
-      <SectionTitle sectionName="About" />
-      <Container>
+      <Row className="my-4">
+        <SectionTitle sectionName="About" />
+      </Row>
+      <Container className="my-4">
         <Row>
           <Col sm={12} md={5}>
             <AboutPhoto />
