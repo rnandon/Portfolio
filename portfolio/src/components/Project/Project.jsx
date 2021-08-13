@@ -12,14 +12,17 @@ function Project(props) {
     <div>
       <Container>
         <Row>
-            <ProjectTitle name={props.name} />
+          <Col sm={12} className="text-center">
+            <ProjectTitle name={props.project.name} />
+          </Col>    
         </Row>
         <Row>
           <Col sm={12} md={5}>
-            <ProjectImage imgSrc={props.imgSrc} />
+            <ProjectImage imgSrc={`./${props.project.imgSrc}`} />
           </Col>
           <Col sm={12} md={7}>
-            <ProjectDescription description={props.description} />
+            <ProjectDescription description={props.project.description} />
+            <a href={props.project.githubUrl} className="btn btn-secondary">Github</a>
           </Col>
         </Row>
       </Container>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProjectTitle = (props) => {
     return (
-        <h2>{props.name}</h2>
+        <p className="lead" >{props.name}</p>
     )
 }
 

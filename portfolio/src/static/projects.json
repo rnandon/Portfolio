@@ -1,8 +1,14 @@
 [
     {
-        "name": "",
-        "description": "",
-        "githubUrl": "",
-        "imgSrc": ""
+        "name": "Battleship",
+        "description": "A console based implementation of the classic game Battleship. Features automatic ship placement, screen hiding between turns, and a dynamic display to show the state of the board. Built in python. Many nmore great features to come as work continues!",
+        "githubUrl": "https://github.com/rnandon/Battleship",
+        "imgSrc": "battleship.png"
+    },
+    {
+        "name": "Coming Soon!",
+        "description": "Many more projects are in the works, check back soon for a new update!",
+        "githubUrl": "https://github.com/rnandon",
+        "imgSrc": "coming_soon.jpg"
     }
 ]
