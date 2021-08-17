@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
-import Contact from './Contact/Contact'
+import ContactModal from './Contact/ContactModal'
 
 class App extends Component {
     constructor(props){
@@ -33,7 +33,7 @@ class App extends Component {
                         <Work />
                     </Row>
                     <Row>
-                        <Contact />
+                        <ContactModal />
                     </Row>
                 </Col>
                 <Col className="m-0 p-0 d-none d-md-block col-md-2 bg-dark" />
