@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav'
 import Container from 'react-bootstrap/Container'
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import './HeaderNavbar.css';
+import ContactModal from '../Contact/ContactModal'
 
 function HeaderNavbar() {
   return (
@@ -24,7 +25,7 @@ function HeaderNavbar() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="#Contact">Contact</Nav.Link>
+            <ContactModal />
           </Nav>
         </Navbar.Collapse>
       </Container>

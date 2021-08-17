@@ -10,7 +10,7 @@ import SectionTitle from '../SectionTitle/SectionTitle';
 class Contact extends Component {
     constructor(props){
         super(props);
-        this.hideModalOuter = props.hideModal;
+        this.hideModalOuter = props.onHide;
         
         this.state = {
             name: "",
@@ -61,7 +61,7 @@ class Contact extends Component {
                 aria-labelledby="contained-modal-title-vcenter"
                 centered
             >
-                <Modal.Header closeButton>
+                <Modal.Header>
                     <Modal.Title id="contained-modal-title-vcenter">
                         Let's Chat
                     </Modal.Title>
@@ -96,7 +96,7 @@ class Contact extends Component {
                     </Form>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button onClick={this.props.hideModal}>Close</Button>
+                    <Button onClick={this.hideModal}>Close</Button>
                 </Modal.Footer>
             </Modal>
         )
