@@ -10,16 +10,18 @@ import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
 import ContactModal from './Contact/ContactModal'
 
 const App = () => {
-      return (
+    // Need to get projects to pass to work page and navbar
+
+    return (
         <Router>
             <main>
                 <HeaderNavbar />
                 <HeaderBar />
                 <Switch>
                     <Route path="/" exact component={HomePage} />
-                    <Route path="/about/" component={AboutPage} />
-                    <Route path="/contact/" component={ContactPage} />
-                    <Route path="/work/" component={WorkPage} />
+                    <Route path="/about" component={AboutPage} />
+                    <Route path="/contact" component={ContactPage} />
+                    <Route path="/work" component={WorkPage} />
                     <Route path="/work/:project" component={ProjectPage} />
                 </Switch>
             </main>
