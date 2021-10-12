@@ -3,7 +3,7 @@ import './ProjectImage.css'
 
 const ProjectImage = (props) => {
     return (
-        <img src={require(`${props.imgSrc}`).default} className="limit-image" />
+        <img src={require(`${props.imgSrc}`).default} className="limit-image" alt="project thumbnail" />
     )
 }
 
