@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const AboutContents = () => {
     return (
@@ -12,7 +13,7 @@ const AboutContents = () => {
             and I love to take on a new challenge.</p>
 
             <p className="my-3">Grab a cup of coffee, take a look around. If you have any questions or
-            would like to get to know me better, make sure to reach out <a href='#contact'>here.</a></p>
+            would like to get to know me better, make sure to reach out <Link to="/contact">here.</Link></p>
         </div>
     )
 }
