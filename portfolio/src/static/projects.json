@@ -1,9 +1,28 @@
 [
     {
-        "name": "Battleship",
-        "description": "A console based implementation of the classic game Battleship. Features automatic ship placement, screen hiding between turns, and a dynamic display to show the state of the board. Built in python. Many nmore great features to come as work continues!",
-        "githubUrl": "https://github.com/rnandon/Battleship",
-        "imgSrc": "battleship.png"
+        "name": "Hobby Radar",
+        "description": "Hobby Radar is a platform designed to streamline and facilitate the process of finding new hobbies, places to engage with hobbies, and people to do them with. Users are provided with hobby recommendations based on hobbies they like and their geographic area using a custom built recommendation engine. While using the app, users can view recommended hobbies and connections, view and register for events, create new hobbies and events, and manage the data associated with their account. Additionally, users can choose to receive notifications via email or text message, and can invite friends and family to the platform through email or SMS. This application was built using ASP.NET WebApi extended with MailKit, Twilio, and Entity Framework for the back end, and React with Redux and Axios on the front end. For demonstration purposes, sample data was created to simulate a live environment.",
+        "githubUrl": "https://github.com/rnandon/HobbyRadar",
+        "imgSrc": "hobbyradar.png",
+        "videoUrl": "https://www.youtube.com/watch?v=_ovOn3DvTFI&"
+    },
+    {
+        "name": "YouTube Clone",
+        "description": "A personalized version of YouTube with a React front end and Django Rest Api back end. This project heavily utilized the YouTube API to allow searching and displaying videos, including popular and context specific video recommendations. Comments were stored locally using the Django Rest Api, and displayed on videos. This project was completed with pair programming with one other developer.",
+        "githubUrl": "https://github.com/rnandon/YoutubeClone",
+        "imgSrc": "youtube_clone.png"
+    },
+    {
+        "name": "Jukebox Hero",
+        "description": "A music library application built with a React front end and Django Rest Api back end. Users can create and manage their own music library. Active filtering is included to ease the process of searching through the library. This project was completed with pair programming with one other developer.",
+        "githubUrl": "https://github.com/MadisonLifeAgent/MusicLibaryGroupProjectRepo",
+        "imgSrc": "jukebox_hero.png"
+    },
+    {
+        "name": "Trash Collector",
+        "description": "Trash collector aimed to improve waste management processes for customers and employees alike. Built using Django MVT, this application offers multiple roles and authentication for users. Customers can use the application to manage regular pickups, including suspending service for a period of time. Customers can additionally schedule additional pickups and view their account balance. Employees can see a route using the Google Maps API, and can see individual customer details as well as view scheduled pickups for any day of the week. This project also incorporates the creation of sample data for demonstration purposes.",
+        "githubUrl": "https://github.com/MadisonLifeAgent/TrashCollectorRepo",
+        "imgSrc": "trash_collector.png"
     },
     {
         "name": "Coming Soon!",
