@@ -9,6 +9,7 @@ import Project from './Project/Project'
 import Contact from './Contact/Contact';
 import HeaderNavbar from './HeaderNavbar/HeaderNavbar';
 import ContactModal from './Contact/ContactModal'
+import FooterBar from './FooterBar/FooterBar';
 
 const App = () => {
     // Need to get projects to pass to work page and navbar
@@ -25,6 +26,7 @@ const App = () => {
                     <Route path="/work" component={Work} />
                     <Route path="/work/:project" component={Project} />
                 </Switch>
+                <FooterBar />
             </main>
         </Router>
       )

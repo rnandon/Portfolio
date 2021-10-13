@@ -2,24 +2,15 @@ import React from 'react';
 import './FooterBar.css';
 
 function FooterBar() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="container-fluid position-static bottom-0">
+            <div className="row justify-content-center">
+                <a href="https://www.linkedin.com/in/ryan-nd/" className="fa fa-linkedin btn m-5"></a>
+                <a href="https://github.com/rnandon" className="fa fa-github btn m-5"></a>
+                <a href="mailto:rnancedonaldson@gmail.com" className="fa fa-envelope btn m-5"></a>
+            </div>
+        </div>
+    );
 }
 
 export default FooterBar;
