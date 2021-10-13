@@ -7,9 +7,7 @@ import AboutPhoto from './AboutPhoto/AboutPhoto';
 export default function About() {
   return (
     <div className="my-5">
-      <div className="row my-4">
         <SectionTitle sectionName="About" />
-      </div>
       <div className="container my-4">
         <div className="row">
           <div className="col-sm-12 col-md-5">

@@ -3,20 +3,20 @@
     text-align: center;
     margin: 5px 2px;
     font-size: 30px;
-    width: 50px;
+    width: 75px;
 }
 
 .fa-linkedin {
-    background: white;
-    color: black;
+    background: #282c34;
+    color: #EEF2EF;
 }
 
 .fa-github {
-    background: white;
-    color: black;
+    background: #282c34;
+    color: #EEF2EF;
 }
 
 .fa-envelope {
-    background: white;
-    color: black;
+    background: #282c34;
+    color: #EEF2EF;
 }

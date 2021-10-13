@@ -5,8 +5,9 @@ import AboutPhoto from "../About/AboutPhoto/AboutPhoto";
 const Home = () => {
     return (
       <div className="my-5">
-        <div className="container my-4">
-          <div className="row">
+        <div className="container my-5">
+          <br />
+          <div className="row my-5">
             <div className="col-sm-12 col-md-5">
               <AboutPhoto />
             </div>
