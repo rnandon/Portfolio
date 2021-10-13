@@ -4,7 +4,7 @@
         "description": "Hobby Radar is a platform designed to streamline and facilitate the process of finding new hobbies, places to engage with hobbies, and people to do them with. Users are provided with hobby recommendations based on hobbies they like and their geographic area using a custom built recommendation engine. While using the app, users can view recommended hobbies and connections, view and register for events, create new hobbies and events, and manage the data associated with their account. Additionally, users can choose to receive notifications via email or text message, and can invite friends and family to the platform through email or SMS. This application was built using ASP.NET WebApi extended with MailKit, Twilio, and Entity Framework for the back end, and React with Redux and Axios on the front end. For demonstration purposes, sample data was created to simulate a live environment.",
         "githubUrl": "https://github.com/rnandon/HobbyRadar",
         "imgSrc": "hobbyradar.png",
-        "videoUrl": "https://www.youtube.com/watch?v=_ovOn3DvTFI&"
+        "videoUrl": "https://www.youtube.com/watch?v=_ovOn3DvTFI"
     },
     {
         "name": "YouTube Clone",
