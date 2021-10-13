@@ -7,7 +7,7 @@ const AboutPhoto = (props) => {
 
     return (
         <div className="container-fluid">
-            <img src={image} alt="Profile Pic" className="col-sm-10" />
+            <img src={image} alt="Profile Pic" className="col-12" />
         </div>
     )
 }
