@@ -19,7 +19,7 @@ export default function Contact(props) {
             <SectionTitle sectionName="Contact Me" />
             <div className="row">
                 <div className="col-sm-1" />
-                <form onSubmit={(event) => sendEmail(event, formValues)} className="col-sm-10 align-self-center" >
+                <form onSubmit={handleSubmit} className="col-sm-10 align-self-center" >
                     <div className="mb-3">
                         <label htmlFor="userName" className="form-label">Name</label>
                         <input type="text" className="form-control" name="userName" id="userName" aria-describedby="userName" onChange={(event) => handleChange(event)} />

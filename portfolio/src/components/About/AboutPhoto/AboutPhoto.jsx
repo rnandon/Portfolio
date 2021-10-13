@@ -1,7 +1,10 @@
 import React from 'react';
-import image from './about_pic.jpg'
+import home from './about_pic.jpg';
+import profile from './profile.jpg';
 
-const AboutPhoto = () => {
+const AboutPhoto = (props) => {
+    const image = props.type === "home" ? home : profile;
+
     return (
         <div className="container-fluid">
             <img src={image} alt="Profile Pic" className="col-sm-10" />

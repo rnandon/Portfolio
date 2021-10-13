@@ -1,5 +1,4 @@
 import React from 'react';
-import HeaderNavbar from '../HeaderNavbar/HeaderNavbar'
 import './HeaderBar.css';
 
 function HeaderBar() {
